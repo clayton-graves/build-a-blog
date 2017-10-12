@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .error{
+                color: red;
+            }
+            textarea {
+                margin: 10px 0;
+                width: 540px;
+                height: 120px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <p>
+            <a href='/blog'>Main Blog Page</a>
+            &nbsp;
+        
+            <a href='/newpost'>Add a Blog</a>
+        
+        </p>
+        </center>
+    {% block content %}
+    {% endblock %}
+    </body>
+</html>
